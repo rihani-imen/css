@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Prata&family=Roboto+Condensed:wght@300&family=Rubik+Gemstones&display=swap");
+body {
+  padding: 0 5%;
+  background: rgb(4, 0, 29);
+  background: linear-gradient(
+    90deg,
+    rgba(4, 0, 29, 1) 0%,
+    rgba(9, 51, 139, 1) 30%,
+    rgba(3, 5, 55, 1) 100%
+  );
+}
+#nav {
+  border: 0px solid white;
+  height: 100px;
+  margin-left: 200px;
+  margin-top: 35px;
+  padding-left: 200px;
+  font-size: 30px;
+}
+P {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+h1,
+h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgb(201, 50, 163);
+  text-align: center;
+}
+li {
+  display: inline-block;
+}
+ul > li > a {
+  color: rgb(13, 163, 201);
+  text-align: center;
+  font-family: "Prata", serif;
+  text-decoration: none;
+}
+#nav > ul {
+  padding: 3px 6px;
+}
+ul > li > a:hover {
+  color: white;
+  font-size: 35px;
+}
+#imgA {
+  padding-left: 10px;
+  width: 1200px;
+  height: 500px;
+  border-radius: 20px;
+}
+#al {
+  text-align: center;
+  font-size: 35px;
+  border: 0px solid white;
+  margin-left: 200px;
+  margin-top: 500px;
+  color: black;
+}
+#imgB {
+  padding-left: 10px;
+  width: 1200px;
+  height: 800px;
+  border-radius: 20px;
+}
+#vd {
+  padding-left: 300px;
+  width: 600px;
+  height: 400px;
+}
+#Resume {
+  padding-left: 300px;
+}
+#contact {
+  border: 0px solid white;
+  width: 740px;
+  height: 200px;
+  margin: 0 auto;
+  padding-left: 150px;
+}
